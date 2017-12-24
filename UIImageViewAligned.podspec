@@ -11,7 +11,8 @@ Pod::Spec.new do |s|
 
   s.author             = "Andrei Stanescu"
   s.social_media_url   = "http://www.mindtreatstudios.com/"
-  s.platform     = :ios, :tvos
+  s.platforms = { :ios => "8.0", :tvos => "9.0" }
+  
 
   s.source       = { :git => "https://github.com/reydanro/UIImageViewAligned.git", :tag => "pod-0.0.1" }
   s.source_files  = "UIImageViewAligned"
